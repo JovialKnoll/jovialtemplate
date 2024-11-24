@@ -1,2 +1,2 @@
-# jovialtemplate
-a template for starting projects based on jovialengine
+# JovialTemplate
+A template for starting projects based on JovialEngine.
