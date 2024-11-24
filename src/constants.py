@@ -71,12 +71,14 @@ elif __file__:
 SRC_DIRECTORY = os.path.dirname(_location)
 
 ASSETS_DIRECTORY = os.path.join(SRC_DIRECTORY, 'assets')
+FONT_DIRECTORY = os.path.join(ASSETS_DIRECTORY, 'fnt')
 GRAPHICS_DIRECTORY = os.path.join(ASSETS_DIRECTORY, 'gfx')
 SOUND_DIRECTORY = os.path.join(ASSETS_DIRECTORY, 'sfx')
 TEXT_DIRECTORY = os.path.join(ASSETS_DIRECTORY, 'txt')
 
+FONT = os.path.join(FONT_DIRECTORY, 'simple_mono.ttf')
+
 WINDOW_ICON = os.path.join(GRAPHICS_DIRECTORY, 'icon.png')
-FONT = os.path.join(GRAPHICS_DIRECTORY, 'simple_mono.ttf')
 
 LOGOS_DIRECTORY = os.path.join(GRAPHICS_DIRECTORY, 'logos')
 JK_LOGO_BLACK = os.path.join(LOGOS_DIRECTORY, 'jklogo_black.png')
